@@ -1,0 +1,4 @@
+enum taskType {
+    Commitment,
+    Task
+}
