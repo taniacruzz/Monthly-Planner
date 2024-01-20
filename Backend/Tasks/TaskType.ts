@@ -1,4 +1,4 @@
-enum taskType {
+export enum TaskType {
     Commitment,
     Task
 }
