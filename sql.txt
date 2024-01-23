@@ -1,0 +1,11 @@
+create database planner;
+use planner;
+
+create table task(
+    id integer primary key auto_increment,
+    status boolean,
+    date datetime,
+    type enum('Task', 'Commitment')
+);
+
+insert into task(status, date, type) values (0, '2024-02-22 12:00:00', 'Commitment');
