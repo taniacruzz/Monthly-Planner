@@ -1,3 +1,4 @@
 # Arquivos JavaScript gerados pelo TypeScript
 *.js
 database.ts
+node_modules
