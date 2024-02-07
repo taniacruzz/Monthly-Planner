@@ -2,3 +2,6 @@
 *.js
 database.ts
 node_modules
+*yarn*
+package-lock*
+yarn.lock
